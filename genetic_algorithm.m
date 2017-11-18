@@ -24,8 +24,6 @@ lower_bound = 0;        % 自变量的区间下限
 
 fitness_average = zeros(generation_size,1); % 将 generation_size*1 的零矩阵赋给 fitness_average
 
-disp [ysj genetic algorithm]
-
 fitness_value(population_size) = 0.;
 best_fitness = 0.;
 best_generation = 0;
